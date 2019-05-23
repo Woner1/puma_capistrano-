@@ -3,7 +3,7 @@
 lock "~> 3.11.0"
 
 set :application, "puma_capistrano"
-set :repo_url, "git@github.com:Woner1/puma_capistrano-.git"
+set :repo_url, "git@github.com:Woner1/puma_capistrano.git"
 
 # Default branch is :master
 set :branch, "develop"
