@@ -50,7 +50,7 @@ set :ssh_options, {
 namespace :deploy do
     desc "db seed"
     task :seed do
-        run "#{ rails db:seed }"
+        run "rails db:seed"
     end
 end
 
