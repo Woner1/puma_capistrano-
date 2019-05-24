@@ -47,12 +47,7 @@ set :ssh_options, {
     auth_methods: %w(publickey)
 }
 
-namespace :deploy do
-    desc "db seed"
-    task :seed do
-        run "rails db:seed"
-    end
-end
+
 
 # The server-based syntax can be used to override options:
 # ------------------------------------
